@@ -1,0 +1,101 @@
+chat_id,patient_id,timestamp,sender,message_text,expected_primary_category
+CHAT-1001,PAT-5001,2026-09-29 19:14,patient,I noticed a red skin rash on my arms with intense itching for 2 days. No chills or fever.,Dermatological
+CHAT-1001,PAT-5001,2026-09-29 19:15,clinician,Thank you for sharing. How long have these symptoms been present?,N/A
+CHAT-1002,PAT-5002,2026-09-29 21:51,patient,Lately I feel extreme fatigue and dizziness. No chest pain or headache.,Neurological
+CHAT-1002,PAT-5002,2026-09-29 21:52,clinician,I understand. Are you currently taking any prescription medications?,N/A
+CHAT-1003,PAT-5003,2026-09-30 00:42,patient,I noticed a red skin rash on my arms with intense itching for 2 days. No chills or fever.,Dermatological
+CHAT-1003,PAT-5003,2026-09-30 00:43,clinician,Understood. Let me check your medical history to advise further.,N/A
+CHAT-1004,PAT-5004,2026-09-30 03:39,patient,Persistent dry cough for 2 weeks with mild shortness of breath.,Respiratory
+CHAT-1004,PAT-5004,2026-09-30 03:40,clinician,Thank you. Have you noticed any other symptoms recently?,N/A
+CHAT-1005,PAT-5005,2026-09-30 06:36,patient,"Hi Doctor, I've had a severe headache and dizziness for 3 days. No fever though.",Neurological
+CHAT-1005,PAT-5005,2026-09-30 06:37,clinician,Thank you for sharing. How long have these symptoms been present?,N/A
+CHAT-1006,PAT-5006,2026-09-30 09:47,patient,Lately I feel extreme fatigue and dizziness. No chest pain or headache.,Neurological
+CHAT-1006,PAT-5006,2026-09-30 09:48,clinician,Understood. Let me check your medical history to advise further.,N/A
+CHAT-1007,PAT-5007,2026-09-30 13:12,patient,"Hi Doctor, I've had a severe headache and dizziness for 3 days. No fever though.",Neurological
+CHAT-1007,PAT-5007,2026-09-30 13:13,clinician,Understood. Let me check your medical history to advise further.,N/A
+CHAT-1008,PAT-5008,2026-09-30 15:46,patient,Itching rash and skin peeling on legs.,Dermatological
+CHAT-1008,PAT-5008,2026-09-30 15:47,clinician,Thank you. Have you noticed any other symptoms recently?,N/A
+CHAT-1009,PAT-5009,2026-09-30 18:48,patient,Severe migraine and blurred vision for 5 hours. No vomiting.,Neurological
+CHAT-1009,PAT-5009,2026-09-30 18:49,clinician,Understood. Let me check your medical history to advise further.,N/A
+CHAT-1010,PAT-5010,2026-09-30 21:51,patient,"Hi Doctor, I've had a severe headache and dizziness for 3 days. No fever though.",Neurological
+CHAT-1010,PAT-5010,2026-09-30 21:52,clinician,I understand. Are you currently taking any prescription medications?,N/A
+CHAT-1011,PAT-5011,2026-10-01 01:18,patient,Mild wheezing and chest congestion when laying down.,Respiratory
+CHAT-1011,PAT-5011,2026-10-01 01:19,clinician,Got it. Please stay rested and hydrated while we review your case.,N/A
+CHAT-1012,PAT-5012,2026-10-01 03:51,patient,I've been coughing a lot with a sore throat and nasal congestion for 4 days. No shortness of breath.,Respiratory
+CHAT-1012,PAT-5012,2026-10-01 03:52,clinician,I understand. Are you currently taking any prescription medications?,N/A
+CHAT-1013,PAT-5013,2026-10-01 06:55,patient,I noticed a red skin rash on my arms with intense itching for 2 days. No chills or fever.,Dermatological
+CHAT-1013,PAT-5013,2026-10-01 06:56,clinician,Thank you for sharing. How long have these symptoms been present?,N/A
+CHAT-1014,PAT-5014,2026-10-01 09:58,patient,I noticed a red skin rash on my arms with intense itching for 2 days. No chills or fever.,Dermatological
+CHAT-1014,PAT-5014,2026-10-01 09:59,clinician,Got it. Please stay rested and hydrated while we review your case.,N/A
+CHAT-1015,PAT-5015,2026-10-01 12:56,patient,Sharp abdominal pain in upper right side. No fever.,Gastrointestinal
+CHAT-1015,PAT-5015,2026-10-01 12:57,clinician,Got it. Please stay rested and hydrated while we review your case.,N/A
+CHAT-1016,PAT-5016,2026-10-01 15:36,patient,Severe migraine and blurred vision for 5 hours. No vomiting.,Neurological
+CHAT-1016,PAT-5016,2026-10-01 15:37,clinician,Understood. Let me check your medical history to advise further.,N/A
+CHAT-1017,PAT-5017,2026-10-01 18:41,patient,"Fever, night sweats, and severe muscle ache for 3 days.",General / Systemic
+CHAT-1017,PAT-5017,2026-10-01 18:42,clinician,Thank you for sharing. How long have these symptoms been present?,N/A
+CHAT-1018,PAT-5018,2026-10-01 22:09,patient,Dry cough and mild throat pain. Denies fever or chills.,Respiratory
+CHAT-1018,PAT-5018,2026-10-01 22:10,clinician,Understood. Let me check your medical history to advise further.,N/A
+CHAT-1019,PAT-5019,2026-10-02 00:57,patient,Persistent dry cough for 2 weeks with mild shortness of breath.,Respiratory
+CHAT-1019,PAT-5019,2026-10-02 00:58,clinician,I understand. Are you currently taking any prescription medications?,N/A
+CHAT-1020,PAT-5020,2026-10-02 04:19,patient,I'm having sharp chest tightness and shortness of breath when I walk. Denies chest pain.,Cardiovascular
+CHAT-1020,PAT-5020,2026-10-02 04:20,clinician,Thank you for sharing. How long have these symptoms been present?,N/A
+CHAT-1021,PAT-5021,2026-10-02 07:16,patient,Lately I feel extreme fatigue and dizziness. No chest pain or headache.,Neurological
+CHAT-1021,PAT-5021,2026-10-02 07:17,clinician,Got it. Please stay rested and hydrated while we review your case.,N/A
+CHAT-1022,PAT-5022,2026-10-02 09:39,patient,Lately I feel extreme fatigue and dizziness. No chest pain or headache.,Neurological
+CHAT-1022,PAT-5022,2026-10-02 09:40,clinician,Thank you for sharing. How long have these symptoms been present?,N/A
+CHAT-1023,PAT-5023,2026-10-02 12:58,patient,Experiencing moderate heartburn and bloating after meals. No abdominal pain.,Gastrointestinal
+CHAT-1023,PAT-5023,2026-10-02 12:59,clinician,Thank you. Have you noticed any other symptoms recently?,N/A
+CHAT-1024,PAT-5024,2026-10-02 16:14,patient,Sudden hives and redness on neck. No difficulty breathing.,Dermatological
+CHAT-1024,PAT-5024,2026-10-02 16:15,clinician,I understand. Are you currently taking any prescription medications?,N/A
+CHAT-1025,PAT-5000,2026-10-02 18:57,patient,Sudden hives and redness on neck. No difficulty breathing.,Dermatological
+CHAT-1025,PAT-5000,2026-10-02 18:58,clinician,I understand. Are you currently taking any prescription medications?,N/A
+CHAT-1026,PAT-5001,2026-10-02 22:16,patient,Experiencing moderate heartburn and bloating after meals. No abdominal pain.,Gastrointestinal
+CHAT-1026,PAT-5001,2026-10-02 22:17,clinician,Thank you for sharing. How long have these symptoms been present?,N/A
+CHAT-1027,PAT-5002,2026-10-03 01:12,patient,"My knee pain has been unbearable since Monday, along with joint stiffness.",Musculoskeletal
+CHAT-1027,PAT-5002,2026-10-03 01:13,clinician,Understood. Let me check your medical history to advise further.,N/A
+CHAT-1028,PAT-5003,2026-10-03 03:49,patient,"My knee pain has been unbearable since Monday, along with joint stiffness.",Musculoskeletal
+CHAT-1028,PAT-5003,2026-10-03 03:50,clinician,Thank you. Have you noticed any other symptoms recently?,N/A
+CHAT-1029,PAT-5004,2026-10-03 06:58,patient,Experiencing moderate heartburn and bloating after meals. No abdominal pain.,Gastrointestinal
+CHAT-1029,PAT-5004,2026-10-03 06:59,clinician,Understood. Let me check your medical history to advise further.,N/A
+CHAT-1030,PAT-5005,2026-10-03 09:48,patient,Lower back pain and muscle stiffness for 1 week. No numbness in legs.,Musculoskeletal
+CHAT-1030,PAT-5005,2026-10-03 09:49,clinician,Thank you for sharing. How long have these symptoms been present?,N/A
+CHAT-1031,PAT-5006,2026-10-03 12:48,patient,"Hello, I am experiencing bad nausea and abdominal pain since yesterday. Haven't had any vomiting.",Gastrointestinal
+CHAT-1031,PAT-5006,2026-10-03 12:49,clinician,Got it. Please stay rested and hydrated while we review your case.,N/A
+CHAT-1032,PAT-5007,2026-10-03 15:59,patient,Experiencing moderate heartburn and bloating after meals. No abdominal pain.,Gastrointestinal
+CHAT-1032,PAT-5007,2026-10-03 16:00,clinician,Thank you for sharing. How long have these symptoms been present?,N/A
+CHAT-1033,PAT-5008,2026-10-03 18:47,patient,Persistent dry cough for 2 weeks with mild shortness of breath.,Respiratory
+CHAT-1033,PAT-5008,2026-10-03 18:48,clinician,Got it. Please stay rested and hydrated while we review your case.,N/A
+CHAT-1034,PAT-5009,2026-10-03 21:47,patient,Diarrhea and stomach cramps since morning. Denies nausea.,Gastrointestinal
+CHAT-1034,PAT-5009,2026-10-03 21:48,clinician,Thank you. Have you noticed any other symptoms recently?,N/A
+CHAT-1035,PAT-5010,2026-10-04 01:15,patient,Severe migraine and blurred vision for 5 hours. No vomiting.,Neurological
+CHAT-1035,PAT-5010,2026-10-04 01:16,clinician,I understand. Are you currently taking any prescription medications?,N/A
+CHAT-1036,PAT-5011,2026-10-04 03:50,patient,I've been coughing a lot with a sore throat and nasal congestion for 4 days. No shortness of breath.,Respiratory
+CHAT-1036,PAT-5011,2026-10-04 03:51,clinician,I understand. Are you currently taking any prescription medications?,N/A
+CHAT-1037,PAT-5012,2026-10-04 07:09,patient,Itching rash and skin peeling on legs.,Dermatological
+CHAT-1037,PAT-5012,2026-10-04 07:10,clinician,Got it. Please stay rested and hydrated while we review your case.,N/A
+CHAT-1038,PAT-5013,2026-10-04 10:11,patient,Mild wheezing and chest congestion when laying down.,Respiratory
+CHAT-1038,PAT-5013,2026-10-04 10:12,clinician,Understood. Let me check your medical history to advise further.,N/A
+CHAT-1039,PAT-5014,2026-10-04 12:59,patient,Sudden hives and redness on neck. No difficulty breathing.,Dermatological
+CHAT-1039,PAT-5014,2026-10-04 13:00,clinician,I understand. Are you currently taking any prescription medications?,N/A
+CHAT-1040,PAT-5015,2026-10-04 15:42,patient,Palpitations and rapid heartbeat during work today. No chest pain.,Cardiovascular
+CHAT-1040,PAT-5015,2026-10-04 15:43,clinician,Thank you. Have you noticed any other symptoms recently?,N/A
+CHAT-1041,PAT-5016,2026-10-04 18:39,patient,"Hello, I am experiencing bad nausea and abdominal pain since yesterday. Haven't had any vomiting.",Gastrointestinal
+CHAT-1041,PAT-5016,2026-10-04 18:40,clinician,Thank you for sharing. How long have these symptoms been present?,N/A
+CHAT-1042,PAT-5017,2026-10-04 21:43,patient,"My knee pain has been unbearable since Monday, along with joint stiffness.",Musculoskeletal
+CHAT-1042,PAT-5017,2026-10-04 21:44,clinician,Thank you. Have you noticed any other symptoms recently?,N/A
+CHAT-1043,PAT-5018,2026-10-05 01:12,patient,I'm having sharp chest tightness and shortness of breath when I walk. Denies chest pain.,Cardiovascular
+CHAT-1043,PAT-5018,2026-10-05 01:13,clinician,Thank you. Have you noticed any other symptoms recently?,N/A
+CHAT-1044,PAT-5019,2026-10-05 03:58,patient,Sharp abdominal pain in upper right side. No fever.,Gastrointestinal
+CHAT-1044,PAT-5019,2026-10-05 03:59,clinician,Thank you. Have you noticed any other symptoms recently?,N/A
+CHAT-1045,PAT-5020,2026-10-05 07:07,patient,Experiencing moderate heartburn and bloating after meals. No abdominal pain.,Gastrointestinal
+CHAT-1045,PAT-5020,2026-10-05 07:08,clinician,Understood. Let me check your medical history to advise further.,N/A
+CHAT-1046,PAT-5021,2026-10-05 09:34,patient,I noticed a red skin rash on my arms with intense itching for 2 days. No chills or fever.,Dermatological
+CHAT-1046,PAT-5021,2026-10-05 09:35,clinician,Understood. Let me check your medical history to advise further.,N/A
+CHAT-1047,PAT-5022,2026-10-05 12:51,patient,Lower back pain and muscle stiffness for 1 week. No numbness in legs.,Musculoskeletal
+CHAT-1047,PAT-5022,2026-10-05 12:52,clinician,Thank you for sharing. How long have these symptoms been present?,N/A
+CHAT-1048,PAT-5023,2026-10-05 15:52,patient,Mild wheezing and chest congestion when laying down.,Respiratory
+CHAT-1048,PAT-5023,2026-10-05 15:53,clinician,I understand. Are you currently taking any prescription medications?,N/A
+CHAT-1049,PAT-5024,2026-10-05 19:03,patient,"Hi Doctor, I've had a severe headache and dizziness for 3 days. No fever though.",Neurological
+CHAT-1049,PAT-5024,2026-10-05 19:04,clinician,Got it. Please stay rested and hydrated while we review your case.,N/A
+CHAT-1050,PAT-5000,2026-10-05 22:06,patient,"My knee pain has been unbearable since Monday, along with joint stiffness.",Musculoskeletal
+CHAT-1050,PAT-5000,2026-10-05 22:07,clinician,Understood. Let me check your medical history to advise further.,N/A
