@@ -1,0 +1,50 @@
+{
+  "dataset_name": "ASTMA Synthetic Telehealth Symptom Corpus",
+  "generator_version": "2.0.0",
+  "random_seed": 42,
+  "num_conversations": 4000,
+  "total_statements": 8000,
+  "total_mentions": 5771,
+  "split_counts": {
+    "train": 4065,
+    "val": 830,
+    "test": 876
+  },
+  "train_category_distribution": {
+    "Cardiovascular": 436,
+    "Reproductive": 427,
+    "Neurological": 421,
+    "Urinary": 415,
+    "General / Systemic": 414,
+    "Respiratory": 401,
+    "ENT": 393,
+    "Gastrointestinal": 391,
+    "Musculoskeletal": 384,
+    "Dermatological": 383
+  },
+  "val_category_distribution": {
+    "Respiratory": 99,
+    "General / Systemic": 92,
+    "Dermatological": 85,
+    "Urinary": 85,
+    "Musculoskeletal": 84,
+    "Neurological": 80,
+    "Cardiovascular": 78,
+    "Gastrointestinal": 78,
+    "ENT": 75,
+    "Reproductive": 74
+  },
+  "test_category_distribution": {
+    "Cardiovascular": 108,
+    "Reproductive": 100,
+    "Neurological": 92,
+    "Gastrointestinal": 91,
+    "Musculoskeletal": 90,
+    "Dermatological": 89,
+    "ENT": 82,
+    "Urinary": 79,
+    "General / Systemic": 77,
+    "Respiratory": 68
+  },
+  "validation_passed": true
+}

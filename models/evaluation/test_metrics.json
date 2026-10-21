@@ -1,0 +1,318 @@
+{
+  "evaluation_dataset": "Active Telehealth Dataset Split",
+  "num_test_samples": 613,
+  "class_labels": [
+    "Cardiovascular",
+    "Dermatological",
+    "ENT",
+    "Gastrointestinal",
+    "General / Systemic",
+    "Musculoskeletal",
+    "Neurological",
+    "Reproductive",
+    "Respiratory",
+    "Urinary"
+  ],
+  "best_model_by_macro_f1": "calibrated_linear_svm",
+  "metrics": {
+    "multinomial_nb": {
+      "accuracy": 0.9511,
+      "macro_precision": 0.9539,
+      "macro_recall": 0.9505,
+      "macro_f1": 0.9513,
+      "weighted_f1": 0.9508,
+      "training_time_seconds": 0.0916,
+      "inference_time_ms_per_sample": 0.037,
+      "per_class": {
+        "Cardiovascular": {
+          "precision": 0.9643,
+          "recall": 0.9818,
+          "f1_score": 0.973,
+          "support": 55
+        },
+        "Dermatological": {
+          "precision": 0.9091,
+          "recall": 0.9589,
+          "f1_score": 0.9333,
+          "support": 73
+        },
+        "ENT": {
+          "precision": 0.9138,
+          "recall": 0.9815,
+          "f1_score": 0.9464,
+          "support": 54
+        },
+        "Gastrointestinal": {
+          "precision": 1.0,
+          "recall": 0.8654,
+          "f1_score": 0.9278,
+          "support": 52
+        },
+        "General / Systemic": {
+          "precision": 0.9516,
+          "recall": 0.8806,
+          "f1_score": 0.9147,
+          "support": 67
+        },
+        "Musculoskeletal": {
+          "precision": 1.0,
+          "recall": 0.9767,
+          "f1_score": 0.9882,
+          "support": 43
+        },
+        "Neurological": {
+          "precision": 0.9733,
+          "recall": 0.9359,
+          "f1_score": 0.9542,
+          "support": 78
+        },
+        "Reproductive": {
+          "precision": 0.9434,
+          "recall": 0.9615,
+          "f1_score": 0.9524,
+          "support": 52
+        },
+        "Respiratory": {
+          "precision": 0.9551,
+          "recall": 1.0,
+          "f1_score": 0.977,
+          "support": 85
+        },
+        "Urinary": {
+          "precision": 0.9286,
+          "recall": 0.963,
+          "f1_score": 0.9455,
+          "support": 54
+        }
+      }
+    },
+    "logistic_regression": {
+      "accuracy": 0.9951,
+      "macro_precision": 0.9951,
+      "macro_recall": 0.9956,
+      "macro_f1": 0.9953,
+      "weighted_f1": 0.9951,
+      "training_time_seconds": 0.3887,
+      "inference_time_ms_per_sample": 0.039,
+      "per_class": {
+        "Cardiovascular": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 55
+        },
+        "Dermatological": {
+          "precision": 1.0,
+          "recall": 0.9863,
+          "f1_score": 0.9931,
+          "support": 73
+        },
+        "ENT": {
+          "precision": 0.9818,
+          "recall": 1.0,
+          "f1_score": 0.9908,
+          "support": 54
+        },
+        "Gastrointestinal": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 52
+        },
+        "General / Systemic": {
+          "precision": 1.0,
+          "recall": 0.9701,
+          "f1_score": 0.9848,
+          "support": 67
+        },
+        "Musculoskeletal": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 43
+        },
+        "Neurological": {
+          "precision": 0.9873,
+          "recall": 1.0,
+          "f1_score": 0.9936,
+          "support": 78
+        },
+        "Reproductive": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 52
+        },
+        "Respiratory": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 85
+        },
+        "Urinary": {
+          "precision": 0.9818,
+          "recall": 1.0,
+          "f1_score": 0.9908,
+          "support": 54
+        }
+      }
+    },
+    "calibrated_linear_svm": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "training_time_seconds": 0.3914,
+      "inference_time_ms_per_sample": 0.045,
+      "per_class": {
+        "Cardiovascular": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 55
+        },
+        "Dermatological": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 73
+        },
+        "ENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 54
+        },
+        "Gastrointestinal": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 52
+        },
+        "General / Systemic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 67
+        },
+        "Musculoskeletal": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 43
+        },
+        "Neurological": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 78
+        },
+        "Reproductive": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 52
+        },
+        "Respiratory": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 85
+        },
+        "Urinary": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 54
+        }
+      }
+    },
+    "random_forest": {
+      "accuracy": 0.9511,
+      "macro_precision": 0.9571,
+      "macro_recall": 0.9553,
+      "macro_f1": 0.9531,
+      "weighted_f1": 0.9504,
+      "training_time_seconds": 0.4157,
+      "inference_time_ms_per_sample": 0.127,
+      "per_class": {
+        "Cardiovascular": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 55
+        },
+        "Dermatological": {
+          "precision": 0.9859,
+          "recall": 0.9589,
+          "f1_score": 0.9722,
+          "support": 73
+        },
+        "ENT": {
+          "precision": 0.9153,
+          "recall": 1.0,
+          "f1_score": 0.9558,
+          "support": 54
+        },
+        "Gastrointestinal": {
+          "precision": 1.0,
+          "recall": 0.7885,
+          "f1_score": 0.8817,
+          "support": 52
+        },
+        "General / Systemic": {
+          "precision": 1.0,
+          "recall": 0.9701,
+          "f1_score": 0.9848,
+          "support": 67
+        },
+        "Musculoskeletal": {
+          "precision": 0.9348,
+          "recall": 1.0,
+          "f1_score": 0.9663,
+          "support": 43
+        },
+        "Neurological": {
+          "precision": 0.8387,
+          "recall": 1.0,
+          "f1_score": 0.9123,
+          "support": 78
+        },
+        "Reproductive": {
+          "precision": 0.9286,
+          "recall": 1.0,
+          "f1_score": 0.963,
+          "support": 52
+        },
+        "Respiratory": {
+          "precision": 0.9861,
+          "recall": 0.8353,
+          "f1_score": 0.9045,
+          "support": 85
+        },
+        "Urinary": {
+          "precision": 0.9818,
+          "recall": 1.0,
+          "f1_score": 0.9908,
+          "support": 54
+        }
+      }
+    },
+    "weighted_ensemble": {
+      "accuracy": 0.9935,
+      "macro_precision": 0.9937,
+      "macro_recall": 0.9933,
+      "macro_f1": 0.9934,
+      "weighted_f1": 0.9935,
+      "training_time_seconds": 1.2874,
+      "inference_time_ms_per_sample": 0.249,
+      "ensemble_weights": {
+        "multinomial_nb": 0.244,
+        "logistic_regression": 0.2552,
+        "calibrated_linear_svm": 0.2564,
+        "random_forest": 0.2444
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "weights": {
+    "multinomial_nb": 0.244,
+    "logistic_regression": 0.2552,
+    "calibrated_linear_svm": 0.2564,
+    "random_forest": 0.2444
+  },
+  "classes": [
+    "Cardiovascular",
+    "Dermatological",
+    "ENT",
+    "Gastrointestinal",
+    "General / Systemic",
+    "Musculoskeletal",
+    "Neurological",
+    "Reproductive",
+    "Respiratory",
+    "Urinary"
+  ],
+  "model_names": [
+    "multinomial_nb",
+    "logistic_regression",
+    "calibrated_linear_svm",
+    "random_forest"
+  ]
+}

@@ -1,81 +1,58 @@
 """
 Clinical Taxonomy Categorizer for Telehealth Symptoms.
 Maps extracted symptom terms to standard medical body systems and urgency levels.
+Supports 10-category clinical taxonomy with backward-compatibility for legacy categories.
 """
 
-# Major Clinical Body Systems and associated symptom keywords
-TAXONOMY = {
-    "Respiratory": [
-        "cough", "dry cough", "wet cough", "productive cough", "wheezing", 
-        "shortness of breath", "dyspnea", "breathing difficulty", "sore throat", 
-        "throat pain", "nasal congestion", "runny nose", "sneezing", 
-        "chest congestion", "phlegm", "stridor"
-    ],
-    "Gastrointestinal": [
-        "nausea", "vomiting", "diarrhea", "abdominal pain", "stomach ache", 
-        "stomach pain", "stomach cramps", "heartburn", "acid reflux", 
-        "constipation", "bloating", "loss of appetite", "indigestion", 
-        "cramping", "flatulence"
-    ],
-    "Neurological": [
-        "headache", "migraine", "dizziness", "vertigo", "lightheadedness", 
-        "numbness", "tingling", "confusion", "disorientation", "seizure", 
-        "blurred vision", "memory loss", "fainting", "syncope", "tremor"
-    ],
-    "Cardiovascular": [
-        "chest tightness", "chest pain", "palpitations", "rapid heartbeat", 
-        "racing heart", "irregular heartbeat", "shortness of breath on exertion", 
-        "ankle swelling", "leg swelling", "chest pressure"
-    ],
-    "Musculoskeletal": [
-        "joint pain", "back pain", "lower back pain", "muscle pain", "muscle ache", 
-        "knee pain", "shoulder pain", "neck pain", "joint stiffness", "swelling", 
-        "muscle cramps", "muscle weakness", "joint inflammation"
-    ],
-    "Dermatological": [
-        "rash", "skin itching", "hives", "redness", "skin redness", "eczema", 
-        "lesion", "skin lesion", "blister", "skin peeling", "boil", "itching", 
-        "dry skin", "hives", "swelling"
-    ],
-    "General / Systemic": [
-        "fever", "high fever", "chills", "fatigue", "extreme tiredness", 
-        "lethargy", "body ache", "generalized weakness", "night sweats", 
-        "unexplained weight loss", "sweating", "malaise"
-    ]
-}
+from typing import Optional
+from config.settings import TAXONOMY_10, HIGH_URGENCY_SYMPTOMS
 
-# High-Urgency Symptoms Flag Matrix
-HIGH_URGENCY_SYMPTOMS = {
-    "chest pain", "chest pressure", "shortness of breath", "difficulty breathing",
-    "seizure", "syncope", "fainting", "high fever", "sudden numbness",
-    "confusion", "disorientation", "coughing blood", "unbearable pain"
-}
+# Maintain TAXONOMY reference for backward compatibility
+TAXONOMY = TAXONOMY_10
 
 def categorize_symptom(symptom_text: str) -> str:
     """
     Categorizes a symptom string into a primary clinical body system.
-    Returns 'General / Systemic' or 'Other / Uncategorized' if no match.
+    Searches across TAXONOMY_10 and returns the matching category.
+    Defaults to 'General / Systemic' if no specific category matches.
     """
+    if not symptom_text:
+        return "General / Systemic"
+
     symptom_lower = symptom_text.lower().strip()
-    
-    # Direct keyword search against taxonomy
-    for category, keywords in TAXONOMY.items():
+
+    # Exact or substring keyword search against taxonomy
+    # Prioritize longer keyword matches to avoid sub-token confusion (e.g. 'ear pain' before 'pain')
+    matched_cat = None
+    max_len = 0
+
+    for category, keywords in TAXONOMY_10.items():
         for kw in keywords:
-            if kw in symptom_lower or symptom_lower in kw:
+            if kw == symptom_lower:
                 return category
-                
+            if kw in symptom_lower or symptom_lower in kw:
+                if len(kw) > max_len:
+                    max_len = len(kw)
+                    matched_cat = category
+
+    if matched_cat:
+        return matched_cat
+
     return "General / Systemic"
 
 def determine_urgency(symptom_text: str, severity: str = "Normal") -> str:
     """
     Determines triage urgency level (High, Medium, Low) based on symptom & severity.
     """
+    if not symptom_text:
+        return "Low"
+
     symptom_lower = symptom_text.lower().strip()
-    sev_lower = severity.lower().strip()
-    
+    sev_lower = (severity or "Normal").lower().strip()
+
     if any(h in symptom_lower for h in HIGH_URGENCY_SYMPTOMS) or "severe" in sev_lower or "unbearable" in sev_lower:
         return "High"
-    elif "moderate" in sev_lower:
+    elif "moderate" in sev_lower or "medium" in sev_lower or "intense" in sev_lower:
         return "Medium"
     else:
         return "Low"

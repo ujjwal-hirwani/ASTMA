@@ -1,0 +1,605 @@
+{
+  "total_disagreement_or_error_cases": 50,
+  "cases": [
+    {
+      "sample_index": 12,
+      "feature_text": "winded easily | context: I've been experiencing both rhinorrhea and winded easily have been bothering me since yesterday.",
+      "ground_truth": "Respiratory",
+      "ensemble_prediction": "Respiratory",
+      "model_predictions": {
+        "calibrated_linear_svm": "Respiratory",
+        "logistic_regression": "Respiratory",
+        "multinomial_nb": "Respiratory",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 28,
+      "feature_text": "chills | context: I am writing because I am having raised rash and chills for 3 days, but no dysmenorrhea.",
+      "ground_truth": "General / Systemic",
+      "ensemble_prediction": "General / Systemic",
+      "model_predictions": {
+        "calibrated_linear_svm": "General / Systemic",
+        "logistic_regression": "General / Systemic",
+        "multinomial_nb": "Dermatological",
+        "random_forest": "General / Systemic"
+      }
+    },
+    {
+      "sample_index": 29,
+      "feature_text": "dysmenorrhea | context: having raised rash and chills for 3 days, but no dysmenorrhea .",
+      "ground_truth": "Reproductive",
+      "ensemble_prediction": "Reproductive",
+      "model_predictions": {
+        "calibrated_linear_svm": "Reproductive",
+        "logistic_regression": "Reproductive",
+        "multinomial_nb": "Dermatological",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 30,
+      "feature_text": "dysuria | context: Doctor, I've had slight dysuria for about 4 hours and wanted to check if this is",
+      "ground_truth": "Urinary",
+      "ensemble_prediction": "Urinary",
+      "model_predictions": {
+        "calibrated_linear_svm": "Urinary",
+        "logistic_regression": "Urinary",
+        "multinomial_nb": "Urinary",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 34,
+      "feature_text": "dysmenorrhea | context: Hi, I have sharp dysmenorrhea for over a month.",
+      "ground_truth": "Reproductive",
+      "ensemble_prediction": "Reproductive",
+      "model_predictions": {
+        "calibrated_linear_svm": "Reproductive",
+        "logistic_regression": "Reproductive",
+        "multinomial_nb": "Reproductive",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 38,
+      "feature_text": "dyspepsia | context: I do not have any dyspepsia .",
+      "ground_truth": "Gastrointestinal",
+      "ensemble_prediction": "Gastrointestinal",
+      "model_predictions": {
+        "calibrated_linear_svm": "Gastrointestinal",
+        "logistic_regression": "Gastrointestinal",
+        "multinomial_nb": "Gastrointestinal",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 46,
+      "feature_text": "fatigue | context: e noticed that I am having throbbing ear pain and fatigue for 1 week, but no skin blisters.",
+      "ground_truth": "General / Systemic",
+      "ensemble_prediction": "General / Systemic",
+      "model_predictions": {
+        "calibrated_linear_svm": "General / Systemic",
+        "logistic_regression": "Dermatological",
+        "multinomial_nb": "ENT",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 54,
+      "feature_text": "dysuria | context: lower back pain, however I have been troubled by dysuria for the past 24 hours.",
+      "ground_truth": "Urinary",
+      "ensemble_prediction": "Urinary",
+      "model_predictions": {
+        "calibrated_linear_svm": "Urinary",
+        "logistic_regression": "Urinary",
+        "multinomial_nb": "Urinary",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 81,
+      "feature_text": "hives | context: Doctor, I wanted to report that I have severe hives for the past 24 hours.",
+      "ground_truth": "Dermatological",
+      "ensemble_prediction": "Dermatological",
+      "model_predictions": {
+        "calibrated_linear_svm": "Dermatological",
+        "logistic_regression": "Dermatological",
+        "multinomial_nb": "Dermatological",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 85,
+      "feature_text": "dysuria | context: Hi, there are no signs of dysuria currently.",
+      "ground_truth": "Urinary",
+      "ensemble_prediction": "Urinary",
+      "model_predictions": {
+        "calibrated_linear_svm": "Urinary",
+        "logistic_regression": "Urinary",
+        "multinomial_nb": "Urinary",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 88,
+      "feature_text": "erythema | context: ng tender joints and body ache for 5 days, but no erythema .",
+      "ground_truth": "Dermatological",
+      "ensemble_prediction": "Dermatological",
+      "model_predictions": {
+        "calibrated_linear_svm": "Dermatological",
+        "logistic_regression": "Dermatological",
+        "multinomial_nb": "General / Systemic",
+        "random_forest": "Dermatological"
+      }
+    },
+    {
+      "sample_index": 110,
+      "feature_text": "shortness of breath | context: I have noticed that I am having shortness of breath and migraine for 1 week, but no blood in urine.",
+      "ground_truth": "Respiratory",
+      "ensemble_prediction": "Respiratory",
+      "model_predictions": {
+        "calibrated_linear_svm": "Respiratory",
+        "logistic_regression": "Respiratory",
+        "multinomial_nb": "Respiratory",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 111,
+      "feature_text": "migraine | context: noticed that I am having shortness of breath and migraine for 1 week, but no blood in urine.",
+      "ground_truth": "Neurological",
+      "ensemble_prediction": "Neurological",
+      "model_predictions": {
+        "calibrated_linear_svm": "Neurological",
+        "logistic_regression": "Neurological",
+        "multinomial_nb": "Respiratory",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 121,
+      "feature_text": "febrile feeling | context: pain across my chest since yesterday. I deny any febrile feeling .",
+      "ground_truth": "General / Systemic",
+      "ensemble_prediction": "General / Systemic",
+      "model_predictions": {
+        "calibrated_linear_svm": "General / Systemic",
+        "logistic_regression": "General / Systemic",
+        "multinomial_nb": "Cardiovascular",
+        "random_forest": "General / Systemic"
+      }
+    },
+    {
+      "sample_index": 125,
+      "feature_text": "shoulder pain | context: ffy nose and vaginal discharge for 2 days, but no shoulder pain .",
+      "ground_truth": "Musculoskeletal",
+      "ensemble_prediction": "Musculoskeletal",
+      "model_predictions": {
+        "calibrated_linear_svm": "Musculoskeletal",
+        "logistic_regression": "Musculoskeletal",
+        "multinomial_nb": "Reproductive",
+        "random_forest": "Musculoskeletal"
+      }
+    },
+    {
+      "sample_index": 130,
+      "feature_text": "stomach cramps | context: ght pink tinged urine since yesterday. I deny any stomach cramps .",
+      "ground_truth": "Gastrointestinal",
+      "ensemble_prediction": "Gastrointestinal",
+      "model_predictions": {
+        "calibrated_linear_svm": "Gastrointestinal",
+        "logistic_regression": "Gastrointestinal",
+        "multinomial_nb": "Urinary",
+        "random_forest": "Gastrointestinal"
+      }
+    },
+    {
+      "sample_index": 133,
+      "feature_text": "dysmenorrhea | context: Really struggling with dysmenorrhea for 2 weeks. Any suggestions?",
+      "ground_truth": "Reproductive",
+      "ensemble_prediction": "Reproductive",
+      "model_predictions": {
+        "calibrated_linear_svm": "Reproductive",
+        "logistic_regression": "Reproductive",
+        "multinomial_nb": "Reproductive",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 141,
+      "feature_text": "dysmenorrhea | context: I've been feeling dysmenorrhea for 3 days, alongside moderate skin blisters.",
+      "ground_truth": "Reproductive",
+      "ensemble_prediction": "Reproductive",
+      "model_predictions": {
+        "calibrated_linear_svm": "Reproductive",
+        "logistic_regression": "Reproductive",
+        "multinomial_nb": "Reproductive",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 143,
+      "feature_text": "dysmenorrhea | context: I have noticed that there are no signs of dysmenorrhea currently.",
+      "ground_truth": "Reproductive",
+      "ensemble_prediction": "Reproductive",
+      "model_predictions": {
+        "calibrated_linear_svm": "Reproductive",
+        "logistic_regression": "Reproductive",
+        "multinomial_nb": "Reproductive",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 147,
+      "feature_text": "eczema | context: eeling lower uterine cramping, alongside moderate eczema .",
+      "ground_truth": "Dermatological",
+      "ensemble_prediction": "Reproductive",
+      "model_predictions": {
+        "calibrated_linear_svm": "Dermatological",
+        "logistic_regression": "Dermatological",
+        "multinomial_nb": "Reproductive",
+        "random_forest": "Dermatological"
+      }
+    },
+    {
+      "sample_index": 154,
+      "feature_text": "sinus pressure | context: Hi, I have sinus pressure and erratic heart rate for the past 24 hours.",
+      "ground_truth": "ENT",
+      "ensemble_prediction": "Cardiovascular",
+      "model_predictions": {
+        "calibrated_linear_svm": "ENT",
+        "logistic_regression": "Cardiovascular",
+        "multinomial_nb": "Cardiovascular",
+        "random_forest": "ENT"
+      }
+    },
+    {
+      "sample_index": 158,
+      "feature_text": "trouble concentrating | context: Over the last few days, I have trouble concentrating and sharp pain in left ear for 3 days.",
+      "ground_truth": "Neurological",
+      "ensemble_prediction": "Neurological",
+      "model_predictions": {
+        "calibrated_linear_svm": "Neurological",
+        "logistic_regression": "Neurological",
+        "multinomial_nb": "ENT",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 167,
+      "feature_text": "dyspepsia | context: I am completely free of dyspepsia .",
+      "ground_truth": "Gastrointestinal",
+      "ensemble_prediction": "Gastrointestinal",
+      "model_predictions": {
+        "calibrated_linear_svm": "Gastrointestinal",
+        "logistic_regression": "Gastrointestinal",
+        "multinomial_nb": "Gastrointestinal",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 170,
+      "feature_text": "chest pressure | context: I have runny nose for 2 weeks, but definitely no chest pressure .",
+      "ground_truth": "Cardiovascular",
+      "ensemble_prediction": "Cardiovascular",
+      "model_predictions": {
+        "calibrated_linear_svm": "Cardiovascular",
+        "logistic_regression": "Cardiovascular",
+        "multinomial_nb": "ENT",
+        "random_forest": "Cardiovascular"
+      }
+    },
+    {
+      "sample_index": 172,
+      "feature_text": "dysuria | context: I'm contacting you because I have unbearable dysuria for 2 days.",
+      "ground_truth": "Urinary",
+      "ensemble_prediction": "Urinary",
+      "model_predictions": {
+        "calibrated_linear_svm": "Urinary",
+        "logistic_regression": "Urinary",
+        "multinomial_nb": "Urinary",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 178,
+      "feature_text": "disorientation | context: past few days, I have hard infrequent stools and disorientation .",
+      "ground_truth": "Neurological",
+      "ensemble_prediction": "Neurological",
+      "model_predictions": {
+        "calibrated_linear_svm": "Neurological",
+        "logistic_regression": "Neurological",
+        "multinomial_nb": "Gastrointestinal",
+        "random_forest": "Gastrointestinal"
+      }
+    },
+    {
+      "sample_index": 179,
+      "feature_text": "lightheadedness | context: I'm worried because I have lightheadedness , but definitely no intense itching.",
+      "ground_truth": "Neurological",
+      "ensemble_prediction": "Neurological",
+      "model_predictions": {
+        "calibrated_linear_svm": "Neurological",
+        "logistic_regression": "Neurological",
+        "multinomial_nb": "Dermatological",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 185,
+      "feature_text": "constant exhaustion | context: I have noticed that I have moderate constant exhaustion for 2 days.",
+      "ground_truth": "General / Systemic",
+      "ensemble_prediction": "General / Systemic",
+      "model_predictions": {
+        "calibrated_linear_svm": "General / Systemic",
+        "logistic_regression": "General / Systemic",
+        "multinomial_nb": "General / Systemic",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 188,
+      "feature_text": "hoarseness | context: Lately, I am having hoarseness and erratic heart rate for 2 weeks, but no heartb",
+      "ground_truth": "ENT",
+      "ensemble_prediction": "ENT",
+      "model_predictions": {
+        "calibrated_linear_svm": "ENT",
+        "logistic_regression": "ENT",
+        "multinomial_nb": "Cardiovascular",
+        "random_forest": "ENT"
+      }
+    },
+    {
+      "sample_index": 190,
+      "feature_text": "heartburn | context: seness and erratic heart rate for 2 weeks, but no heartburn .",
+      "ground_truth": "Gastrointestinal",
+      "ensemble_prediction": "Cardiovascular",
+      "model_predictions": {
+        "calibrated_linear_svm": "Gastrointestinal",
+        "logistic_regression": "Gastrointestinal",
+        "multinomial_nb": "Cardiovascular",
+        "random_forest": "Cardiovascular"
+      }
+    },
+    {
+      "sample_index": 192,
+      "feature_text": "running a temperature | context: encing severe stuffy nose for 2 weeks. I deny any running a temperature .",
+      "ground_truth": "General / Systemic",
+      "ensemble_prediction": "General / Systemic",
+      "model_predictions": {
+        "calibrated_linear_svm": "General / Systemic",
+        "logistic_regression": "General / Systemic",
+        "multinomial_nb": "General / Systemic",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 201,
+      "feature_text": "body ache | context: I've been feeling body ache for 5 days, alongside moderate menstrual cramps.",
+      "ground_truth": "General / Systemic",
+      "ensemble_prediction": "General / Systemic",
+      "model_predictions": {
+        "calibrated_linear_svm": "General / Systemic",
+        "logistic_regression": "General / Systemic",
+        "multinomial_nb": "Reproductive",
+        "random_forest": "General / Systemic"
+      }
+    },
+    {
+      "sample_index": 204,
+      "feature_text": "scratching constantly | context: I've been experiencing my main complaint is scratching constantly , which feels severe for 3 days.",
+      "ground_truth": "Dermatological",
+      "ensemble_prediction": "Dermatological",
+      "model_predictions": {
+        "calibrated_linear_svm": "Dermatological",
+        "logistic_regression": "Dermatological",
+        "multinomial_nb": "Dermatological",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 207,
+      "feature_text": "dysmenorrhea | context: worried because I am having weak urine stream and dysmenorrhea for 5 days, but no acid reflux.",
+      "ground_truth": "Reproductive",
+      "ensemble_prediction": "Reproductive",
+      "model_predictions": {
+        "calibrated_linear_svm": "Reproductive",
+        "logistic_regression": "Reproductive",
+        "multinomial_nb": "Urinary",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 213,
+      "feature_text": "constant exhaustion | context: Doctor, I've had unbearable constant exhaustion since yesterday and wanted to check if this is no",
+      "ground_truth": "General / Systemic",
+      "ensemble_prediction": "General / Systemic",
+      "model_predictions": {
+        "calibrated_linear_svm": "General / Systemic",
+        "logistic_regression": "General / Systemic",
+        "multinomial_nb": "General / Systemic",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 218,
+      "feature_text": "lower back pain | context: erratic heart rate for 3 days, but definitely no lower back pain .",
+      "ground_truth": "Musculoskeletal",
+      "ensemble_prediction": "Musculoskeletal",
+      "model_predictions": {
+        "calibrated_linear_svm": "Musculoskeletal",
+        "logistic_regression": "Musculoskeletal",
+        "multinomial_nb": "Cardiovascular",
+        "random_forest": "Musculoskeletal"
+      }
+    },
+    {
+      "sample_index": 233,
+      "feature_text": "feeling nauseous | context: Good morning, I noticed slight feeling nauseous , though I haven't had any puffy lower legs.",
+      "ground_truth": "Gastrointestinal",
+      "ensemble_prediction": "Gastrointestinal",
+      "model_predictions": {
+        "calibrated_linear_svm": "Gastrointestinal",
+        "logistic_regression": "Gastrointestinal",
+        "multinomial_nb": "Cardiovascular",
+        "random_forest": "Gastrointestinal"
+      }
+    },
+    {
+      "sample_index": 248,
+      "feature_text": "erythema | context: sh dry cough for about 4 hours, but definitely no erythema .",
+      "ground_truth": "Dermatological",
+      "ensemble_prediction": "Dermatological",
+      "model_predictions": {
+        "calibrated_linear_svm": "Dermatological",
+        "logistic_regression": "Dermatological",
+        "multinomial_nb": "Dermatological",
+        "random_forest": "Respiratory"
+      }
+    },
+    {
+      "sample_index": 261,
+      "feature_text": "bloating | context: Hi, I have bloating and urticaria flare-up for 5 days.",
+      "ground_truth": "Gastrointestinal",
+      "ensemble_prediction": "Gastrointestinal",
+      "model_predictions": {
+        "calibrated_linear_svm": "Gastrointestinal",
+        "logistic_regression": "Gastrointestinal",
+        "multinomial_nb": "Gastrointestinal",
+        "random_forest": "Dermatological"
+      }
+    },
+    {
+      "sample_index": 263,
+      "feature_text": "skipped heartbeats | context: I am completely free of skipped heartbeats .",
+      "ground_truth": "Cardiovascular",
+      "ensemble_prediction": "Cardiovascular",
+      "model_predictions": {
+        "calibrated_linear_svm": "Cardiovascular",
+        "logistic_regression": "Cardiovascular",
+        "multinomial_nb": "Cardiovascular",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 268,
+      "feature_text": "feeling nauseous | context: p lower uterine cramping since Monday. I deny any feeling nauseous .",
+      "ground_truth": "Gastrointestinal",
+      "ensemble_prediction": "Gastrointestinal",
+      "model_predictions": {
+        "calibrated_linear_svm": "Gastrointestinal",
+        "logistic_regression": "Gastrointestinal",
+        "multinomial_nb": "Reproductive",
+        "random_forest": "Gastrointestinal"
+      }
+    },
+    {
+      "sample_index": 272,
+      "feature_text": "testicular pain | context: Since earlier this week, I have testicular pain and fuzzy vision for 2 days.",
+      "ground_truth": "Reproductive",
+      "ensemble_prediction": "Reproductive",
+      "model_predictions": {
+        "calibrated_linear_svm": "Reproductive",
+        "logistic_regression": "Reproductive",
+        "multinomial_nb": "Neurological",
+        "random_forest": "Reproductive"
+      }
+    },
+    {
+      "sample_index": 276,
+      "feature_text": "mucus buildup | context: I am experiencing mild mucus buildup for 2 weeks. I deny any feeling dizzy.",
+      "ground_truth": "Respiratory",
+      "ensemble_prediction": "Respiratory",
+      "model_predictions": {
+        "calibrated_linear_svm": "Respiratory",
+        "logistic_regression": "Respiratory",
+        "multinomial_nb": "Respiratory",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 284,
+      "feature_text": "dysmenorrhea | context: Lately, both facial fullness around forehead and dysmenorrhea have been bothering me since yesterday.",
+      "ground_truth": "Reproductive",
+      "ensemble_prediction": "ENT",
+      "model_predictions": {
+        "calibrated_linear_svm": "Reproductive",
+        "logistic_regression": "ENT",
+        "multinomial_nb": "ENT",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 296,
+      "feature_text": "tummy ache | context: I am experiencing tummy ache for 2 days. I deny any clogged chest.",
+      "ground_truth": "Gastrointestinal",
+      "ensemble_prediction": "Gastrointestinal",
+      "model_predictions": {
+        "calibrated_linear_svm": "Gastrointestinal",
+        "logistic_regression": "Gastrointestinal",
+        "multinomial_nb": "Gastrointestinal",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 304,
+      "feature_text": "dysuria | context: I am writing because my main complaint is dysuria , which feels severe for 2 days.",
+      "ground_truth": "Urinary",
+      "ensemble_prediction": "Urinary",
+      "model_predictions": {
+        "calibrated_linear_svm": "Urinary",
+        "logistic_regression": "Urinary",
+        "multinomial_nb": "Urinary",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 311,
+      "feature_text": "dyspepsia | context: fluttering for about 4 hours, alongside moderate dyspepsia .",
+      "ground_truth": "Gastrointestinal",
+      "ensemble_prediction": "Gastrointestinal",
+      "model_predictions": {
+        "calibrated_linear_svm": "Gastrointestinal",
+        "logistic_regression": "Gastrointestinal",
+        "multinomial_nb": "Gastrointestinal",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 320,
+      "feature_text": "pounding migraine | context: Doctor, I wanted to report that both pounding migraine and pain behind eyes have been bothering me since",
+      "ground_truth": "Neurological",
+      "ensemble_prediction": "Neurological",
+      "model_predictions": {
+        "calibrated_linear_svm": "Neurological",
+        "logistic_regression": "Neurological",
+        "multinomial_nb": "ENT",
+        "random_forest": "Neurological"
+      }
+    },
+    {
+      "sample_index": 327,
+      "feature_text": "severe rigors | context: he past few days, I have urinating every hour and severe rigors since yesterday.",
+      "ground_truth": "General / Systemic",
+      "ensemble_prediction": "General / Systemic",
+      "model_predictions": {
+        "calibrated_linear_svm": "General / Systemic",
+        "logistic_regression": "General / Systemic",
+        "multinomial_nb": "Urinary",
+        "random_forest": "General / Systemic"
+      }
+    },
+    {
+      "sample_index": 329,
+      "feature_text": "hives | context: Lately, I have ticklish dry cough and hives for 3 days.",
+      "ground_truth": "Dermatological",
+      "ensemble_prediction": "Dermatological",
+      "model_predictions": {
+        "calibrated_linear_svm": "Dermatological",
+        "logistic_regression": "Dermatological",
+        "multinomial_nb": "Respiratory",
+        "random_forest": "Neurological"
+      }
+    }
+  ]
+}

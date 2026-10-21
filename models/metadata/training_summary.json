@@ -1,0 +1,74 @@
+{
+  "models": {
+    "multinomial_nb": {
+      "training_time_seconds": 0.0916,
+      "val_accuracy": 0.9511,
+      "val_macro_f1": 0.9513,
+      "classes": [
+        "Cardiovascular",
+        "Dermatological",
+        "ENT",
+        "Gastrointestinal",
+        "General / Systemic",
+        "Musculoskeletal",
+        "Neurological",
+        "Reproductive",
+        "Respiratory",
+        "Urinary"
+      ]
+    },
+    "logistic_regression": {
+      "training_time_seconds": 0.3887,
+      "val_accuracy": 0.9951,
+      "val_macro_f1": 0.9953,
+      "classes": [
+        "Cardiovascular",
+        "Dermatological",
+        "ENT",
+        "Gastrointestinal",
+        "General / Systemic",
+        "Musculoskeletal",
+        "Neurological",
+        "Reproductive",
+        "Respiratory",
+        "Urinary"
+      ]
+    },
+    "calibrated_linear_svm": {
+      "training_time_seconds": 0.3914,
+      "val_accuracy": 1.0,
+      "val_macro_f1": 1.0,
+      "classes": [
+        "Cardiovascular",
+        "Dermatological",
+        "ENT",
+        "Gastrointestinal",
+        "General / Systemic",
+        "Musculoskeletal",
+        "Neurological",
+        "Reproductive",
+        "Respiratory",
+        "Urinary"
+      ]
+    },
+    "random_forest": {
+      "training_time_seconds": 0.4157,
+      "val_accuracy": 0.9511,
+      "val_macro_f1": 0.9531,
+      "classes": [
+        "Cardiovascular",
+        "Dermatological",
+        "ENT",
+        "Gastrointestinal",
+        "General / Systemic",
+        "Musculoskeletal",
+        "Neurological",
+        "Reproductive",
+        "Respiratory",
+        "Urinary"
+      ]
+    }
+  },
+  "timestamp": "2026-10-21 11:16:23",
+  "random_seed": 42
+}
